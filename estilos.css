@@ -183,6 +183,10 @@ code {
   display: flex;
 }
 
-.box1 img {
+.boximg {
   max-width: 90%;
+}
+
+.thanks {
+  width: 400px;
 }
