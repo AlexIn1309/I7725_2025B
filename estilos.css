@@ -75,7 +75,6 @@ nav a {
   border-radius: 10px; /* opcional, queda bonito */
 }
 
-
 .texto-portada {
   position: absolute;
   top: 50%;
@@ -157,7 +156,7 @@ code {
   max-height: 500px;
   overflow-y: auto;
   margin-top: 16px;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
 }
 
@@ -167,15 +166,23 @@ code {
   font-size: 14px;
 }
 
-#tabla-csv th, #tabla-csv td {
+#tabla-csv th,
+#tabla-csv td {
   padding: 8px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--white);
 }
 
 #tabla-csv th {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   position: sticky;
   top: 0;
 }
 
+.box1 {
+  display: flex;
+}
+
+.box1 img {
+  max-width: 90%;
+}
