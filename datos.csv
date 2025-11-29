@@ -1,0 +1,41 @@
+servicio_id	cliente_nombre	cliente_apellido	repartidor_nombre	repartidor_apellido	origen	destino	estatus	fecha_servicio	horario_inicio	horario_fin_estimado	duracion_estimado_minutos	condiciones_sellos	nivel_combustible	condiciones_neumaticos	ruta_autorizada	tiempo_estimado_viaje
+40	Carlos	Torres	Carlos	Pérez	Centro	Guadalajara	finalizado	2025-10-14	08:00:00	09:30:00	90	NULL	NULL	NULL	NULL	NULL
+28	Carlos	Torres	Carlos	Pérez	Centro	Zapopan	en ruta	2025-10-10	08:00:00	09:15:00	75	NULL	NULL	NULL	NULL	NULL
+16	Carlos	Torres	Carlos	Pérez	Miravalle	Centro	en ruta	2025-10-06	08:00:00	09:15:00	75	NULL	NULL	NULL	NULL	NULL
+4	Carlos	Torres	Carlos	Pérez	Centro	Santa Anita	en ruta	2025-10-02	08:15:00	09:45:00	90	Intacto	Lleno	Buenas	Av López Mateos	1h 15m
+31	Ana	López	Carlos	Pérez	Centro	El Colli	pendiente	2025-10-11	07:45:00	09:00:00	75	NULL	NULL	NULL	NULL	NULL
+19	Ana	López	Carlos	Pérez	Centro	Miramar	en ruta	2025-10-07	08:00:00	09:45:00	105	NULL	NULL	NULL	NULL	NULL
+7	Ana	López	Carlos	Pérez	Tonalá	Zapopan	en ruta	2025-10-03	07:45:00	09:00:00	75	Dañado	Bajo	Regulares	Av Río Nilo	1h 15m
+34	José	Ramírez	Carlos	Pérez	Zapopan	Santa Anita	pendiente	2025-10-12	08:00:00	09:30:00	90	NULL	NULL	NULL	NULL	NULL
+22	José	Ramírez	Carlos	Pérez	Guadalajara	Zapopan	en ruta	2025-10-08	08:15:00	09:30:00	75	NULL	NULL	NULL	NULL	NULL
+10	José	Ramírez	Carlos	Pérez	Centro	San Pedro	en ruta	2025-10-04	08:00:00	09:30:00	90	Intacto	Medio	Buenas	Av Revolución	1h
+37	María	Hernández	Carlos	Pérez	Oblatos	Centro	pendiente	2025-10-13	08:00:00	09:15:00	75	NULL	NULL	NULL	NULL	NULL
+25	María	Hernández	Carlos	Pérez	Zapopan	Centro	en ruta	2025-10-09	08:00:00	09:30:00	90	NULL	NULL	NULL	NULL	NULL
+13	María	Hernández	Carlos	Pérez	El Sauz	Chapalita	en ruta	2025-10-05	07:30:00	09:00:00	90	NULL	NULL	NULL	NULL	NULL
+1	María	Hernández	Carlos	Pérez	Centro	Zapopan	finalizado	2025-10-01	08:00:00	09:30:00	90	Intacto	Lleno	Buenas	Av Vallarta	1h
+32	Carlos	Torres	Luisa	Gómez	Guadalajara	Chapalita	finalizado	2025-10-11	09:15:00	10:30:00	75	NULL	NULL	NULL	NULL	NULL
+20	Carlos	Torres	Luisa	Gómez	El Colli	Chapalita	pendiente	2025-10-07	09:00:00	10:15:00	75	NULL	NULL	NULL	NULL	NULL
+8	Carlos	Torres	Luisa	Gómez	El Colli	Centro	pendiente	2025-10-03	10:00:00	11:30:00	90	Intacto	Lleno	Buenas	Av Vallarta	1h 30m
+35	Ana	López	Luisa	Gómez	El Sauz	Chapalita	finalizado	2025-10-12	09:45:00	11:15:00	90	NULL	NULL	NULL	NULL	NULL
+23	Ana	López	Luisa	Gómez	Centro	Tlaquepaque	pendiente	2025-10-08	09:45:00	11:00:00	75	NULL	NULL	NULL	NULL	NULL
+11	Ana	López	Luisa	Gómez	Tlaquepaque	Zapopan	pendiente	2025-10-04	09:45:00	11:15:00	90	NULL	NULL	NULL	NULL	NULL
+38	José	Ramírez	Luisa	Gómez	Chapalita	Zapopan	finalizado	2025-10-13	09:30:00	10:45:00	75	NULL	NULL	NULL	NULL	NULL
+26	José	Ramírez	Luisa	Gómez	Tonalá	Chapala	pendiente	2025-10-09	09:30:00	11:00:00	90	NULL	NULL	NULL	NULL	NULL
+14	José	Ramírez	Luisa	Gómez	Zapopan	Santa Anita	pendiente	2025-10-05	09:00:00	10:30:00	90	NULL	NULL	NULL	NULL	NULL
+2	José	Ramírez	Luisa	Gómez	Guadalajara	Tlaquepaque	finalizado	2025-10-01	09:00:00	10:15:00	75	Intacto	Medio	Buenas	Av Revolución	1h 15m
+29	María	Hernández	Luisa	Gómez	Miravalle	Tonalá	pendiente	2025-10-10	09:30:00	10:45:00	75	NULL	NULL	NULL	NULL	NULL
+17	María	Hernández	Luisa	Gómez	Zapopan	Tonala	pendiente	2025-10-06	09:30:00	11:00:00	90	NULL	NULL	NULL	NULL	NULL
+5	María	Hernández	Luisa	Gómez	Chapalita	Oblatos	finalizado	2025-10-02	09:00:00	10:30:00	90	Intacto	Lleno	Buenas	Av Patria	1h 30m
+36	Carlos	Torres	José	Martínez	Centro	Tonalá	en ruta	2025-10-12	11:30:00	12:45:00	75	NULL	NULL	NULL	NULL	NULL
+24	Carlos	Torres	José	Martínez	Chapalita	Oblatos	finalizado	2025-10-08	11:15:00	12:30:00	75	NULL	NULL	NULL	NULL	NULL
+12	Carlos	Torres	José	Martínez	Oblatos	Centro	finalizado	2025-10-04	11:30:00	13:00:00	90	NULL	NULL	NULL	NULL	NULL
+39	Ana	López	José	Martínez	Miramar	Tonalá	en ruta	2025-10-13	11:00:00	12:15:00	75	NULL	NULL	NULL	NULL	NULL
+27	Ana	López	José	Martínez	Santa Anita	El Sauz	finalizado	2025-10-09	11:15:00	12:45:00	90	NULL	NULL	NULL	NULL	NULL
+15	Ana	López	José	Martínez	Centro	Oblatos	finalizado	2025-10-05	10:45:00	12:00:00	75	NULL	NULL	NULL	NULL	NULL
+3	Ana	López	José	Martínez	Zapopan	Tonala	pendiente	2025-10-01	10:30:00	12:00:00	90	Dañado	Bajo	Regulares	Periférico Norte	1h 30m
+30	José	Ramírez	José	Martínez	Oblatos	Santa Anita	finalizado	2025-10-10	11:00:00	12:15:00	75	NULL	NULL	NULL	NULL	NULL
+18	José	Ramírez	José	Martínez	Chapalita	Santa Anita	finalizado	2025-10-06	11:15:00	12:30:00	75	NULL	NULL	NULL	NULL	NULL
+6	José	Ramírez	José	Martínez	Miramar	Centro	pendiente	2025-10-02	11:00:00	12:30:00	90	Intacto	Medio	Buenas	Periférico Sur	1h 20m
+33	María	Hernández	José	Martínez	Tonalá	Centro	en ruta	2025-10-11	10:45:00	12:00:00	75	NULL	NULL	NULL	NULL	NULL
+21	María	Hernández	José	Martínez	Santa Anita	Centro	finalizado	2025-10-07	10:30:00	11:45:00	75	NULL	NULL	NULL	NULL	NULL
+9	María	Hernández	José	Martínez	Guadalajara	Chapala	finalizado	2025-10-03	11:30:00	12:45:00	75	Intacto	Lleno	Buenas	Carretera a Chapala	1h 15m

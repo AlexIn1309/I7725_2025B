@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Proyecto - Minería de Datos</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <h1>
+            Análisis de información y minería de datos para la toma de
+            decisiones
+          </h1>
+        </div>
+        <nav>
+          <a href="index.html">Base teórica</a>
+          <a href="resultados.html">Resultados</a>
+          <a href="#deploy">Despliegue</a>
+        </nav>
+      </header>
+      <div style="margin-top: 20px" class="card">
+        <section id="vista-minable">
+          <h2>Vista Minable del Conjunto de Datos</h2>
+
+          <div class="tabla-scroll">
+            <table id="tabla-csv"></table>
+          </div>
+        </section>
+
+        <section id="resultados">
+          <h2>Resultados</h2>
+          <p>
+            En el análisis práctico se construyó una vista minable a partir de
+            las tablas de servicios y checklists, se exportó a CSV y se procesó
+            en Orange. Las técnicas aplicadas incluyeron clasificación mediante
+            regresión logística y experimentos de clusterización (K-means) y
+            árboles. El pipeline generó métricas de rendimiento, una matriz de
+            confusión y ranking de variables que permitieron identificar los
+            factores más relevantes para el estatus de entrega.
+          </p>
+
+          <h3>Almacén y vista minable</h3>
+          <p>
+            Se diseñó la vista <code>vista_minable_entregas</code> que integra
+            los campos operativos (horarios, origen/destino) y del checklist
+            (nivel_combustible, condiciones_neumaticos, condiciones_sello). Para
+            el análisis se creó una versión filtrada que contiene registros
+            completos de checklist para asegurar la calidad del modelo.
+          </p>
+
+          <h3>Herramientas y técnicas</h3>
+          <p>
+            Las herramientas empleadas fueron MariaDB para la gestión de datos,
+            Orange Data Mining para modelado y análisis, y Excel/CSV como
+            formato intermedio. Las técnicas aplicadas incluyeron clasificación
+            (regresión logística y árbol de decisión), evaluación con validación
+            cruzada y análisis de importancia de variables (Rank).
+          </p>
+
+          <h3>Panel gerencial (propuesta)</h3>
+          <p>
+            Se propone un dashboard con KPI clave como porcentaje de entregas a
+            tiempo, tiempo promedio, entregas por repartidor, y alertas de
+            servicio en riesgo. Este panel consumiría salidas del modelo y
+            métricas OTIF (On Time In Full) para priorizar acciones operativas.
+          </p>
+        </section>
+
+        <section id="deploy" style="margin-top: 18px">
+          <h2>Despliegue en Cloudflare Pages</h2>
+          <p>
+            La forma más rápida de publicar esta página es con Cloudflare Pages.
+            Las instrucciones generales son: crear un repositorio en GitHub con
+            este archivo <code>index.html</code>, conectar el repositorio en
+            Cloudflare Pages y configurar el proyecto como sitio de páginas
+            estáticas (no se requiere build). Alternativamente, si prefieres una
+            SPA con Angular, se puede crear el proyecto con <code>ng new</code>,
+            generar el build con <code>ng build --prod</code> y en Cloudflare
+            Pages configurar el comando de build <code>npm run build</code> y la
+            carpeta de salida <code>dist/&lt;nombre-proyecto&gt;</code>.
+          </p>
+          <pre>
+Pasos rápidos (estático HTML):
+1) Crear repo en GitHub y subir index.html
+2) Ir a Cloudflare Pages > Create a project > Conectar repo
+3) Framework preset: None
+4) Build command: (vacío)
+5) Build output directory: /
+6) Deploy
+
+Pasos rápidos (Angular):
+1) ng new entregas
+2) cd entregas && ng build --configuration production
+3) Subir repo y en Pages: Build command: npm run build && Output dir: dist/entregas
+</pre
+          >
+          <p class="small">
+            Si quieres, puedo generarte el archivo <code>index.html</code> listo
+            para subir o preparar los pasos para un proyecto Angular completo.
+          </p>
+        </section>
+      </div>
+
+      <footer>Universidad de Guadalajara — César Morán</footer>
+    </div>
+  </body>
+  <script src="funciones.js"></script>
+</html>
