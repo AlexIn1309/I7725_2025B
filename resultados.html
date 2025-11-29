@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Proyecto - Minería de Datos</title>
     <link rel="stylesheet" href="estilos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
     <div class="container">
@@ -28,6 +29,11 @@
           <div class="tabla-scroll">
             <table id="tabla-csv"></table>
           </div>
+        </section>
+
+        <section id="grafica">
+          <h2>Distribución de Servicios por Estatus</h2>
+          <canvas id="graficaEstatus"></canvas>
         </section>
 
         <section id="resultados">
